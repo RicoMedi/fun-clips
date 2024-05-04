@@ -1,7 +1,11 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-
-
+import { NavLink } from "react-router-dom";
+<div style={{ margin: "10px" }}>
+<NavLink to="/" activeClassName="active">
+  Home
+</NavLink>
+</div>
 
 export const RegisterForm = () => {
     const {register, handleSubmit}= useForm()

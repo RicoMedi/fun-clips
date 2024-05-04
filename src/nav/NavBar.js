@@ -1,22 +1,23 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
+import "./Nav.css";
+import { Link } from "react-router-dom";
 export const NavBar = () => {
   return (
-    <div>
-      <h1 className="nav-title">Welcome To Medina Farms</h1>
-      <div style={{ margin: "10px" }}>
-        <NavLink
-          to="/"
-          style={({ isActive }) => ({
-            fontSize: ['20px'],
-            color: isActive ? "black" : "red",
-          })}
-        >
+    <div className="nav">
+      <h1 className="nav-title">FunClipz</h1>
+      <div className="link-container">
+        <Link to="/" className="home-link">
           Home
-        </NavLink>
+        </Link>
+
+        <Link to="/" className="home-link">
+          Categories
+        </Link>
+
+        <Link to="/" className="home-link">
+          Videos
+        </Link>
       </div>
     </div>
   );
 };
-
