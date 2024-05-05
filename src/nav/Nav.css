@@ -1,21 +1,79 @@
-.nav-title{
-    font-size: 2.5rem;
-    color: #141619;
-    font-family: "Oswald";
-    font-weight: 900;
-    padding-left: 2rem;
+.nav {
+  background-color: #f5f5f5;
+  border: 2px solid;
+  text-align: left;
 }
-.nav{ 
-    background-color: #f5f5f5;
-    border: 2px solid ;
-    text-align: left;
-    
-}
-.link-container{
-    padding-right: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 4rem
+.nav-title {
+  font-size: 2.5rem;
+  color: #141619;
+  font-family: "Oswald";
+  font-weight: 900;
+  padding-left: 2rem;
 }
 
+.regular-nav {
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 4rem;
+  font-size: 1.5rem;
+}
+
+.menu-button-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-button-mobile {
+    display: block;
+  }
+  .menu-button {
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: 85%;
+  }
+  .close-menu-button {
+    padding-left: 6rem;
+    padding-top: 2rem;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    overflow: auto;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    letter-spacing: normal;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .nav-list li:active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  .nav-list li:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .regular-nav {
+    display: none;
+  }
+}
