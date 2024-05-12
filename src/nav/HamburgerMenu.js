@@ -9,15 +9,19 @@ export const HamburgerMenu = () => {
 
   const handleClick = () => {
     setShowMenu(!showMenu);
+    const sidebar = document.querySelector('.sidebar');
+    if (showMenu) {
+      sidebar.style.display = 'none'; // Hide the sidebar when showMenu is true
+    } else {
+      sidebar.style.display = 'block'; // Show the sidebar when showMenu is false
+    }
   };
-
   return (
     <div className="menu-button-mobile" onClick={handleClick}>
-      <motion.div
-        initial={{ opacity: 0, x: "100%" }}
+    <motion.div
         animate={{
-          opacity: showMenu ? 1 : 1,
-          x: showMenu ? "0%" : "100%",
+          opacity: showMenu ? 1 : 0, // Set opacity to 0 when not showing the menu
+          x: showMenu ? "0%" : "100%", // Slide in when showMenu is true
         }}
         transition={{ duration: 0.5 }}
         className="sidebar"

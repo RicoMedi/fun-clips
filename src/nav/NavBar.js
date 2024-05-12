@@ -5,7 +5,8 @@ import { HamburgerMenu } from "./HamburgerMenu";
 export const NavBar = () => {
   
   return (
-    <div className="nav">
+    <header className="nav-container">
+       <div className="nav">
       <h1 className="nav-title">FunClipz</h1>
       
       <div className="regular-nav">
@@ -26,5 +27,7 @@ export const NavBar = () => {
       </div>
       <HamburgerMenu />
     </div>
+    </header>
+   
   );
 };
