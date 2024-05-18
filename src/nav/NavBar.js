@@ -7,7 +7,7 @@ export const NavBar = () => {
   return (
     <header className="nav-container">
        <div className="nav">
-      <h1 className="nav-title">FunClipz</h1>
+      <h1 className="nav-title">Timeless Memories</h1>
       
       <div className="regular-nav">
         <Link to="/" className="nav-link">
