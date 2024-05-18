@@ -1,7 +1,7 @@
 import React from "react";
 
 export const HomePage = () => {
-  return <div>Homepage</div>;
+  return <div>Plan Your Next Trip</div>;
 };
 
 
