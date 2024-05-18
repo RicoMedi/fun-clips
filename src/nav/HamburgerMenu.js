@@ -8,25 +8,29 @@ export const HamburgerMenu = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleClick = () => {
-    setShowMenu(!showMenu);
-    const sidebar = document.querySelector('.sidebar');
-    if (showMenu) {
-      sidebar.style.display = 'none'; // Hide the sidebar when showMenu is true
-    } else {
-      sidebar.style.display = 'block'; // Show the sidebar when showMenu is false
-    }
+    setShowMenu(prevShowMenu => !prevShowMenu);
   };
+
   return (
-    <div className="menu-button-mobile" onClick={handleClick}>
-    <motion.div
-        animate={{
-          opacity: showMenu ? 1 : 0, // Set opacity to 0 when not showing the menu
-          x: showMenu ? "0%" : "100%", // Slide in when showMenu is true
-        }}
-        transition={{ duration: 0.5 }}
-        className="sidebar"
-      >
-        {showMenu && (
+    <div className="menu-button-mobile">
+      {!showMenu && (
+        <img
+          src={MenuButton}
+          height={"38px"}
+          width={"38px"}
+          alt="Open menu button"
+          className="menu-button"
+          onClick={handleClick}
+        />
+      )}
+      {showMenu && (
+        <motion.div
+          initial={{ opacity: 0, x: "100%" }}
+          animate={{ opacity: 1, x: "0%" }}
+          exit={{ opacity: 0, x: "100%" }}
+          transition={{ duration: 0.5 }}
+          className="sidebar"
+        >
           <img
             src={CloseButton}
             height={"28px"}
@@ -35,38 +39,29 @@ export const HamburgerMenu = () => {
             className="close-menu-button"
             onClick={handleClick}
           />
-        )}
-        <div className="nav-list">
-          <li className="active">
-            <Link to="/" style={{ color: "black" }}>
-              Home
-            </Link>
-          </li>
-          <li className="active">
-            <Link to="/categories" style={{ color: "black" }}>
-              Categories
-            </Link>
-          </li>
-          <li className="active">
-            <Link to="/videos" style={{ color: "black" }}>
-              Images
-            </Link>
-          </li>
-          <li className="active">
-            <Link to="/signin" style={{ color: "black" }}>
-              Sign In
-            </Link>
-          </li>
-        </div>
-      </motion.div>
-      {!showMenu && (
-        <img
-          src={MenuButton}
-          height={"38px"}
-          width={"38px"}
-          alt="Open menu button"
-          className="menu-button"
-        />
+          <div className="nav-list">
+            <li className="active">
+              <Link to="/" >
+                Home
+              </Link>
+            </li>
+            <li className="active">
+              <Link to="/categories" >
+                Categories
+              </Link>
+            </li>
+            <li className="active">
+              <Link to="/videos" >
+                Images
+              </Link>
+            </li>
+            <li className="active">
+              <Link to="/signin" style={{ color: "black" }}>
+                Sign In
+              </Link>
+            </li>
+          </div>
+        </motion.div>
       )}
     </div>
   );

@@ -40,7 +40,7 @@
 
   .close-menu-button {
    position: fixed;
-   top: 3%;
+   top: 4%;
    left: 2%;
   }
 
@@ -80,7 +80,12 @@
   .regular-nav {
     display: none;
   }
+  .nav{
+    height: 6rem;
+
+  }
   .nav-title{
-    font-size: 2rem;
+    font-family: "Honk";
+    font-size: 2.3rem;
   }
 }
