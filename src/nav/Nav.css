@@ -8,7 +8,9 @@
   align-items: center; /* Align items vertically */
   
 }
-
+.nav-link{
+  color:#f4fff8
+}
 
 .nav-title {
   font-size: 2.5rem;
