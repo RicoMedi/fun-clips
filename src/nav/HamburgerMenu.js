@@ -49,7 +49,7 @@ export const HamburgerMenu = () => {
           </li>
           <li className="active">
             <Link to="/videos" style={{ color: "black" }}>
-              Videos
+              Images
             </Link>
           </li>
           <li className="active">
