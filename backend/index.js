@@ -6,7 +6,7 @@ const server = require('./api/server.js');
 // to decide what port to use if none it will fallback to 8000
 const PORT = process.env.PORT || 8000
 
-server.listen(PORT, ()=>{
+server.listen(PORT, () =>{
     console.log(`Api listening on ${PORT}`)
 })
 
