@@ -15,11 +15,11 @@ export const NavBar = () => {
         </Link>
 
         <Link to="/" className="nav-link">
-          Categories
+          Videos
         </Link>
 
         <Link to="/" className="nav-link">
-          Videos
+          Favorites
         </Link>
         <Link to="/signin" className="nav-link">
           Sign In
