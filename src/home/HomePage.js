@@ -1,7 +1,9 @@
 import React from "react";
 
 export const HomePage = () => {
-  return <div>best videos, funny videos </div>;
+  return (
+    <div>
+      <h1>Best videos, funny videos </h1>
+    </div>
+  );
 };
-
-
