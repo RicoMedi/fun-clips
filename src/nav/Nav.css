@@ -68,7 +68,7 @@
   }
 
   .nav-list li:active {
-    background-color: #04aa6d;
+    background-color: blue;
     color: white;
   }
 
