@@ -1,7 +1,7 @@
 import React from "react";
 
 export const HomePage = () => {
-  return <div>Plan Your Next Trip</div>;
+  return <div>best videos, funny videos </div>;
 };
 
 
