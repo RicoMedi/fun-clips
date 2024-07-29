@@ -8,6 +8,8 @@ export const HomePage = () => {
       <input type="text"></input>
       <button>Search</button>
       <button>Cancel</button>
+    
+      <button>Upload</button>
     </div>
   );
 };
