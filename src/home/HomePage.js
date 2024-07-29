@@ -7,6 +7,7 @@ export const HomePage = () => {
       <h2> Search</h2>
       <input type="text"></input>
       <button>Search</button>
+      <button>Cancel</button>
     </div>
   );
 };
