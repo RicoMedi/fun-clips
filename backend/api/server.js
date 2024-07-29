@@ -10,7 +10,7 @@ server.use(express.json());
 
 
 server.get('/', (req, res)=>{
-    res.send(`<h2> Time to use your server, whenever you want I may delete this  </h2>`);
+    res.send(`<h2> decide </h2>`);
 })
 
 module.exports = server;
