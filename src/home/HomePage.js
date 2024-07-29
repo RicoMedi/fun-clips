@@ -6,6 +6,7 @@ export const HomePage = () => {
       <h1>Best videos, funny videos </h1>
       <h2> Search</h2>
       <input type="text"></input>
+      <button>Search</button>
     </div>
   );
 };
