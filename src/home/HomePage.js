@@ -9,6 +9,7 @@ export const HomePage = () => {
       <button>Search</button>
       <button>Cancel</button>
       <button> Edit </button>
+      <button>Sign up</button>
     
       <button>Upload</button>
     </div>
