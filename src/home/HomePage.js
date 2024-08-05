@@ -11,6 +11,9 @@ export const HomePage = () => {
       <button> Edit </button>
       <button>Sign up</button>
     <button>Hekko</button>
+    <h1>
+      Revaluate this project
+    </h1>
       <button>Upload</button>
     </div>
   );
