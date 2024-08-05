@@ -15,6 +15,7 @@ export const HomePage = () => {
       Revaluate this project
     </h1>
       <button>Upload</button>
+      <h2> I need a better plan</h2>
     </div>
   );
 };
