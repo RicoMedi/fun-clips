@@ -10,7 +10,7 @@ export const HomePage = () => {
       <button>Cancel</button>
       <button> Edit </button>
       <button>Sign up</button>
-    
+    <button>Hekko</button>
       <button>Upload</button>
     </div>
   );
