@@ -8,9 +8,7 @@ export const HomePage = () => {
       <input type="text"></input>
       <button>Search</button>
       <button>Cancel</button>
-      <button> Edit </button>
-      <button>Sign up</button>
-    <button>Hekko</button>
+    
     <h1>
       Revaluate this project
     </h1>
