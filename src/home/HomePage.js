@@ -8,6 +8,7 @@ export const HomePage = () => {
       <input type="text"></input>
     
     <input type="radio"></input>
+    <input type="radio"></input>
     <h1>
       Revaluate this project
     </h1>
