@@ -7,7 +7,7 @@ export const HomePage = () => {
       <h2> Search</h2>
       <input type="text"></input>
     
-    <input type="radio"></input>
+
     <input type="radio"></input>
     <h1>
       Revaluate this project
