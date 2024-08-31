@@ -8,6 +8,7 @@ export const HomePage = () => {
       <input type="text"></input>
     <button>Sign up</button>
     <button>search</button>
+    <button>Upload</button>
     <input type="radio"></input>
     <h1>
       Revaluate this project
