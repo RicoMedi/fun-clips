@@ -10,6 +10,7 @@ export const HomePage = () => {
     <button>search</button>
     <button>Upload</button>
     <input type="text"> Enter your username</input>
+    <input type="text"> Enter your password</input>
     <input type="radio"></input>
     <h1>
       Revaluate this project
