@@ -9,6 +9,7 @@ export const HomePage = () => {
     <button>Sign up</button>
     <button>search</button>
     <button>Upload</button>
+    <input type="text"> Enter your username</input>
     <input type="radio"></input>
     <h1>
       Revaluate this project
