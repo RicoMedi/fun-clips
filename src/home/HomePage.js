@@ -7,10 +7,7 @@ export const HomePage = () => {
       <h2> Search</h2>
       <input type="text"></input>
     <button>Sign up</button>
-    <button>search</button>
-    <button>Upload</button>
-    <input type="text"> Enter your username</input>
-    
+   
     <h1>
       Revaluate this project
     </h1>
