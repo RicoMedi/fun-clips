@@ -8,6 +8,7 @@ export const HomePage = () => {
       <input type="text"></input>
     <button>Sign up</button>
    <button> Account </button>
+   <buton> Log in</buton>
     <h1>
       Revaluate this project
     </h1>
