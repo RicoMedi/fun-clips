@@ -15,7 +15,7 @@ export const HomePage = () => {
     </h1>
       <button>Upload</button>
       <h2> I need a better plan</h2>
-      <h2>Im so bad at coding </h2>
+      <h2> Brainstorm</h2>
     </div>
   );
 };
