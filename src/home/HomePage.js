@@ -17,6 +17,7 @@ export const HomePage = () => {
       <h2> I need a better plan</h2>
       <h2> Brainstorm</h2>
       <h3> I need a new plan </h3>
+      <h2> I need help</h2>
     </div>
   );
 };
