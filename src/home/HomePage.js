@@ -11,7 +11,7 @@ export const HomePage = () => {
 
     <h1>Im in colombia rn</h1>
    
-
+<h2>Upload </h2>
     <h1>
       Revaluate this project
     </h1>
