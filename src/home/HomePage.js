@@ -9,6 +9,7 @@ export const HomePage = () => {
       <input type="text"></input>
     <button>Sign up</button>
     <button>Log In</button>
+    <button>Upload</button>
 
     <h1>Im in colombia rn</h1>
    
