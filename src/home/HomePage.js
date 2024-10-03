@@ -11,7 +11,7 @@ export const HomePage = () => {
     <button>Log In</button>
     <button>Upload</button>
 
-    <h1>Im in colombia rn</h1>
+  
    
     <h2>Upload </h2>
 
