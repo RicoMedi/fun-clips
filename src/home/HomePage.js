@@ -15,10 +15,8 @@ export const HomePage = () => {
    
     <h2>Upload </h2>
 
-    <h1>
-      Revaluate this project
-    </h1>
-      <button>Upload</button>
+   
+      
      
       
     </div>
