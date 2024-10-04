@@ -13,7 +13,7 @@ export const HomePage = () => {
 
   
    
-    <h2>Upload </h2>
+
 
    
       
