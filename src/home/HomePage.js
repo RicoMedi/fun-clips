@@ -10,6 +10,7 @@ export const HomePage = () => {
     <h3> I am so excited to hear back from the new company </h3>
     <h3> I hope they choose me over someone else </h3>
   
+  <h3> if i dont get chosen its okay life goes on </h3>
    
 
 
