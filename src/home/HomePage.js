@@ -7,7 +7,7 @@ export const HomePage = () => {
    
     
     
-        <p>cant wait to start my new intern</p>
+    
    
   
 
