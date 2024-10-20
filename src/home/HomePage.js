@@ -7,7 +7,7 @@ export const HomePage = () => {
    
     
     <input> Cant wait to start a new job</input>
-    <h3> I am so excited to hear back from the new company </h3>
+        <p>cant wait to start my new intern</p>
    
   
 
