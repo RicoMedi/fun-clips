@@ -7,7 +7,7 @@ export const HomePage = () => {
    
     
     
-    
+    <h2> new job</h2>
    
   
 
