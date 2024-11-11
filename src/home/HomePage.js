@@ -24,7 +24,9 @@ export const HomePage = () => {
         </section>  
     
     
-
+<section>
+  <h3> About us</h3>
+</section>
    
 
 
