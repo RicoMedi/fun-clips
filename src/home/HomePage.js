@@ -27,10 +27,7 @@ export const HomePage = () => {
         <li>Feature 3</li>
       </ul>
      </section>
-     <section>
-      <h2>About</h2>
-      <p>Some information about the app</p>
-     </section>
+    \
    
     
     
