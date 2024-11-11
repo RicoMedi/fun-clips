@@ -27,6 +27,9 @@ export const HomePage = () => {
 <section>
   <h3> About us</h3>
 </section>
+<section>
+  <h3> Contact us</h3>
+</section>
    
 
 
