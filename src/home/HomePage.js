@@ -19,9 +19,7 @@ export const HomePage = () => {
       <h1>Home Page</h1>
       <p>Welcome to the Home Page</p>
      </section>
-      <section>
-      <h2>Features</h2>
-        </section>  
+
     
     
 
