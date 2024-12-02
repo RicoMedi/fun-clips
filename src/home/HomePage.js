@@ -16,7 +16,7 @@ export const HomePage = () => {
       </nav>
      </header>
      <section>
-      <h1>Home Page</h1>
+   
     
      </section>
 
