@@ -17,7 +17,7 @@ export const HomePage = () => {
      </header>
      <section>
       <h1>Home Page</h1>
-      <p>Welcome to the Home Page</p>
+    
      </section>
 
     
