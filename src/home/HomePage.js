@@ -19,6 +19,7 @@ export const HomePage = () => {
    <h1> Welcome to the Home Page</h1>
     <h2> This is a simple app</h2>
     <h3> This app is built for youtube videos</h3>
+    <h4> This app is built for content videos</h4>
      </section>
 
     
