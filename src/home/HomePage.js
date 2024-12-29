@@ -20,6 +20,7 @@ export const HomePage = () => {
     <h2> This is a simple app</h2>
     <h3> This app is built for youtube videos</h3>
     <h4> This app is built for content videos</h4>
+    <h5> Bottom nav</h5>
      </section>
 
     
