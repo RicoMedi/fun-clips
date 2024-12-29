@@ -17,7 +17,7 @@ export const HomePage = () => {
      </header>
      <section>
    <h1> Welcome to the Home Page</h1>
-    
+    <h2> This is a simple app</h2>
      </section>
 
     
