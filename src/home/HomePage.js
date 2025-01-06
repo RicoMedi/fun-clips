@@ -23,6 +23,18 @@ export const HomePage = () => {
     <h4> This app is built for content videos</h4>
     <h5> Bottom nav</h5>
      </section>
+     <section>
+      <footer>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Blog</li>
+        </ul>
+      </footer>
+     </section>
 
     
     
