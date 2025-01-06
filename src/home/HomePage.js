@@ -12,10 +12,7 @@ export const HomePage = () => {
           <li>Services</li>
           <li>Portfolio</li>
           <li>Blog</li>
-          <li>Shop</li>
-          <li>FAQ</li>
-          <li>Terms</li>
-          <li>Privacy</li>
+       
         </ul>
       </nav>
      </header>
