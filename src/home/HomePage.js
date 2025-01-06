@@ -6,10 +6,16 @@ export const HomePage = () => {
      <header>
       <nav>
         <ul>
-          <li>
-            <a href="/login">Login</a>
-          </li>
-          
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Blog</li>
+          <li>Shop</li>
+          <li>FAQ</li>
+          <li>Terms</li>
+          <li>Privacy</li>
         </ul>
       </nav>
      </header>
