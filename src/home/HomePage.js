@@ -40,6 +40,7 @@ export const HomePage = () => {
         <h1> This is the footer</h1>
         <h2> This is the footer</h2>
         <h3> This is the footer</h3> 
+        <h4> This is the footer</h4>
      </section>
 
     
