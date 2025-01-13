@@ -30,8 +30,6 @@ export const HomePage = () => {
           <li>About</li>
           <li>Contact</li>
           <li>Services</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
         </ul>
       </footer>
       
