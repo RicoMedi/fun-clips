@@ -26,8 +26,7 @@ export const HomePage = () => {
      <section>
       <footer>
         <ul>
-          <li>Home</li>
-          <li>About</li>
+         <h3>address</h3>
           
         </ul>
       </footer>
