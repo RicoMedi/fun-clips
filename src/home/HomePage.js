@@ -27,6 +27,7 @@ export const HomePage = () => {
       <footer>
         <ul>
          <h3>address</h3>
+         <h4>phone number</h4>
           
         </ul>
       </footer>
