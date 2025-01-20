@@ -28,8 +28,7 @@ export const HomePage = () => {
         <ul>
           <li>Home</li>
           <li>About</li>
-          <li>Contact</li>
-          <li>Services</li>
+          
         </ul>
       </footer>
       
